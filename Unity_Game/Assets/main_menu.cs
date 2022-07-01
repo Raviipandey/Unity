@@ -12,7 +12,7 @@ public class main_menu : MonoBehaviour
     }
 
     public void StartGame(){
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Reflection");
     }
 
     public void Help(){        
