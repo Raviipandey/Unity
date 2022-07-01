@@ -14,4 +14,8 @@ public class main_menu : MonoBehaviour
     public void StartGame(){
         SceneManager.LoadScene("Game");
     }
+
+    public void Help(){        
+        UnityEngine.SceneManagement.SceneManager.LoadScene("help");
+    }
 }
