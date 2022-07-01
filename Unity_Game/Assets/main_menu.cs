@@ -18,4 +18,8 @@ public class main_menu : MonoBehaviour
     public void Help(){        
         UnityEngine.SceneManagement.SceneManager.LoadScene("help");
     }
+
+    public void Back(){        
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainScreen");
+    }
 }
